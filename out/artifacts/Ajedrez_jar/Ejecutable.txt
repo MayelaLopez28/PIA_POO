@@ -1,0 +1,6 @@
+Hice un .jar y un .exe  pero para ejecutarse tuve que cambiar la versión a java 8 , 
+entonces la clase con la que le di sonido no era compatible y no se escuchan los efectos
+
+Asi que solo están aquí para complementar pero para que no se vea afectada la calidad de mis 
+imagenes y se escuchen los efectos , prefiero enseñarlo ejecutándolo directamente del Main del
+proyecto
