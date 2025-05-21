@@ -1,0 +1,23 @@
+Historial de movimientos - 
+----------------------------------
+1. Peon Blanco a d4 Peon Negro a c5
+2. Peon Blanco a c5 Peon Negro a d6
+3. Peon Blanco a c6 Peon Negro a d5
+4. Peon Blanco a b7 Caballo Negro a c6
+5. Peon Blanco a b8 Alfil Negro a e6
+6. Reina Blanco a d8 Rey Negro a d8
+7. Reina Blanco a d4 Caballo Negro a b4
+8. Reina Blanco a b4 Alfil Negro a f5
+9. Reina Blanco a b8 Rey Negro a d7
+10. Alfil Blanco a f4 Rey Negro a c6
+11. Peon Blanco a e4 Rey Negro a c5
+12. Alfil Blanco a a6 Peon Negro a e4
+13. Reina Blanco a c8 Rey Negro a b4
+14. Caballo Blanco a d2 Peon Negro a e3
+15. Caballo Blanco a b3 Peon Negro a e2
+16. Peon Blanco a a3 Rey Negro a a4
+17. Alfil Blanco a b5 Rey Negro a b5
+18. Reina Blanco a c5 Rey Negro a a4
+19. Peon Blanco a c4 Alfil Negro a b1
+20. Caballo Blanco a a5
+Partida finalizada: Blancas ganan
