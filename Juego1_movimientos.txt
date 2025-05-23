@@ -1,0 +1,7 @@
+Historial de movimientos - 
+----------------------------------
+1. Peon Blanco a d4 Peon Negro a c5
+2. Peon Blanco a c3 Peon Negro a b5
+3. Alfil Blanco a e3 Caballo Negro a a6
+
+Partida finalizada: Tablas
