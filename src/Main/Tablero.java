@@ -234,7 +234,7 @@ public class Tablero extends JPanel {
             h.addMovimiento(movimiento);
         }
 
-        // Reproduce el sonido correspondiente segUn sea captura o movimiento normal
+        // Reproduce el sonido correspondiente segun sea captura o movimiento normal
         if(mover.captura != null) {
             Sonido.playCaptureSound();
         } else {
@@ -242,7 +242,7 @@ public class Tablero extends JPanel {
         }
 
 
-        // Maneja movimientos especiales segUn el tipo de pieza
+        // Maneja movimientos especiales segun el tipo de pieza
         if(mover.pieza.name.equals("Peon")) {
             // Maneja movimientos especiales del peon (en passant, promocion)
             moverPeon(mover);
@@ -359,7 +359,7 @@ public class Tablero extends JPanel {
 
 
     /**
-     * Maneja la promocion de un peon al llegar a la Ultima fila
+     * Maneja la promocion de un peon al llegar a la ultima fila
      * Muestra un dialogo para que el jugador elija la pieza de promocion
      *
      * @param mover Movimiento del peon que promociona
@@ -408,7 +408,7 @@ public class Tablero extends JPanel {
     }
 
     /**
-     * Verifica si un movimiento es valido segUn las reglas del ajedrez
+     * Verifica si un movimiento es valido segun las reglas del ajedrez
      * Realiza mUltiples validaciones para garantizar que se cumplan las reglas
      *
      * @param mover Movimiento a verificar
@@ -431,12 +431,12 @@ public class Tablero extends JPanel {
             return false;
         }
 
-        // Verifica que el movimiento sea valido segUn las reglas de la pieza
+        // Verifica que el movimiento sea valido segun las reglas de la pieza
         if(!mover.pieza.esMovimientoValido(mover.newColumna, mover.newFila)){
             return false;
         }
 
-        // Verifica que no haya piezas en el camino (segUn el tipo de pieza)
+        // Verifica que no haya piezas en el camino (segun el tipo de pieza)
         if(mover.pieza.movimientoChocaPieza(mover.newColumna, mover.newFila)){
             return false;
         }
@@ -554,7 +554,7 @@ public class Tablero extends JPanel {
                 boolean EsBlanco = Character.isUpperCase(ch);
                 char piezaChar = Character.toLowerCase(ch);
 
-                // Crea la pieza correspondiente segUn el caracter
+                // Crea la pieza correspondiente segun el caracter
                 switch (piezaChar) {
                     case 'r':
                         piezasList.add(new Torre(this, c, r, EsBlanco));
@@ -579,7 +579,7 @@ public class Tablero extends JPanel {
             }
         }
 
-        // Establece el turno segUn la notacion FEN
+        // Establece el turno segun la notacion FEN
         if (parts.length > 1) {
             TurnoBlanco = parts[1].equals("w");
         }
